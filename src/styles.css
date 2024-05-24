@@ -1,0 +1,45 @@
+.input-fields {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid #ffff;
+  color: #ffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card {
+  width: 15vh;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right top,
+    #fb00d8,
+    #ee2ddc,
+    #e13fde,
+    #d44ce0,
+    #c756e0,
+    #b06bef,
+    #987cf9,
+    #7f8aff,
+    #4aa2ff,
+    #00b6ff,
+    #00c8ff,
+    #00d7ff
+  );
+}
+.dark-text {
+  font-size: large;
+  font-weight: 640;
+}
+.light-text {
+  opacity: 65%;
+}
+.faded-text {
+  margin-top: 1vh;
+  color: purple;
+  opacity: 65%;
+  font-weight: 700;
+}
